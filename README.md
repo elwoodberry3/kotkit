@@ -1,6 +1,8 @@
 # KotKit
 A Next.js project.
 
+[Documentation](./_assets/docs/README.md)
+
 ## Stack
 - **Next.js**: Full-stack React framework for building SSR/SSG apps, boosting SEO and performance.  
 - **React**: UI library for creating interactive, reusable components.  
