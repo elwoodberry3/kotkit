@@ -6,3 +6,4 @@
 1. [Layouts](./04_layouts.md)
 1. [Components](./05_components.md)
 1. [Top Navigation](./06_top-navigation.md)
+1. [Side Navigation](./07_side-nav.md)
