@@ -39,7 +39,7 @@ export default function TopNav(){
                             placeholder="Search Accounts"
                         />
 
-                        <div className="absolute bg-white max-w-[910px] h-auto w-full z-20 left-0 top-12 border p-1">
+                        {/* <div className="absolute bg-white max-w-[910px] h-auto w-full z-20 left-0 top-12 border p-1">
                             <div className="p-1">
                                 <Link 
                                     href={`/profile/1`}
@@ -52,7 +52,7 @@ export default function TopNav(){
                                 
                                 </Link>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className="px-3 py-1 flex items-center border-l border-l-gray-300">
                             <BiSearch color="#A1A2A7" size="22" />
