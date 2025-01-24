@@ -16,7 +16,7 @@ export default function Home() {
             <PostMain post={{
               id: '123',
               user_id: '456',
-              video_url: '/beach.mp4',
+              video_url: '/videos/dance.mp4',
               text: 'this is some text',
               created_at: 'date here',
               profile: {

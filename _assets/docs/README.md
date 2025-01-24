@@ -7,3 +7,6 @@
 1. [Components](./05_components.md)
 1. [Top Navigation](./06_top-navigation.md)
 1. [Side Navigation](./07_side-nav.md)
+1. [Main Page](./08_main-pg.md)
+1. [Upload Page](./09_upload-page.md)
+1. [Profile Page](./10_profile-page.md)
