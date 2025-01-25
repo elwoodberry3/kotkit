@@ -9,4 +9,10 @@
 1. [Side Navigation](./07_side-nav.md)
 1. [Main Page](./08_main-pg.md)
 1. [Upload Page](./09_upload-page.md)
-1. [Profile Page](./10_profile-page.md)
+1. [Profile Page](./10_profile-page.md)  
+1. [Edit Profile Overlay](./11_edit-profile-overlay.md)  
+
+
+## To Do List  
+This is a list of milestones:
+1. Seperate out all buttons from the editProfileOverlay AND bring them back as reusable components.
