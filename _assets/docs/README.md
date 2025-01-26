@@ -11,6 +11,7 @@
 1. [Upload Page](./09_upload-page.md)
 1. [Profile Page](./10_profile-page.md)  
 1. [Edit Profile Overlay](./11_edit-profile-overlay.md)  
+1. [Post Page](./12_post-page.md)  
 
 
 ## To Do List  

@@ -14,14 +14,14 @@ export default function Home() {
         <div className="mt-[80px] w-[calc(100%-90px)] max-w-[690px] ml-auto">
           <ClientOnly>
             <PostMain post={{
-              id: '123',
-              user_id: '456',
-              video_url: '/videos/dance.mp4',
-              text: 'this is some text',
+              id: 'tD2tgTp2',
+              user_id: 'user_tD2tgTp2',
+              video_url: '/videos/four-wheeler.mp4',
+              text: 'You know what guys.. this is really amazing!',
               created_at: 'date here',
               profile: {
                 user_id: '456',
-                name: 'User 1',
+                name: 'Martin "Marty" Byrde',
                 image: 'https:placehold.co/100'
               }
             }} />

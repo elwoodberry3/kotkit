@@ -10,18 +10,18 @@ import { ProfilePageTypes } from "@/app/types";
 import { BsPencil } from "react-icons/bs";
 export default function Profile({ params }: ProfilePageTypes){
     const defaultUser = {
-        id: '123',
-        user_id: '456',
-        name: 'John Weeks',
+        id: 'tD2tgTp2',
+        user_id: 'user_tD2tgTp2',
+        name: 'Martin "Marty" Byrde',
         image: 'https://placehold.co/200',
         bio: 'This is my bio. Follow me!'
     }
     return (
         <>
             <MainLayout>
-                <ClientOnly>
+                {/* <ClientOnly>
                     <EditProfileOverlay />
-                </ClientOnly>
+                </ClientOnly> */}
                 <div className="pt-[90px] ml-[90px] 2xl:pl-[185px] lg:pl-[160px] lg:pr-0 w-[calc(100%-90px)] pr-3 max-w-[1800px] 2xl:mx-auto">
                     <div className="flex w-[calc(100vw-230px)]">
                         <ClientOnly>
@@ -78,9 +78,9 @@ export default function Profile({ params }: ProfilePageTypes){
                     <ClientOnly>
                         <div className="mt-4 grid 2xl:grid-cols-6 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-3">
                             <PostUser post={{
-                                id:'123',
-                                user_id:'345',
-                                video_url:'/videos/dance.mp4',
+                                id: 'tD2tgTp2',
+                                user_id: 'user_tD2tgTp2',
+                                video_url:'/videos/four-wheeler.mp4',
                                 text:'This is a post',
                                 created_at: 'date goes here'
                             }} />
