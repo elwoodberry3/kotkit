@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import AuthOverlay from "./components/AuthOverlay";
 
 export const metadata: Metadata = {
-  title: "KOTKIT",
-  description: "A TIKTOK Replica",
+  title: "KROWD",
+  description: "A new social media application",
 };
 
 export default function RootLayout({
@@ -13,7 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <AuthOverlay />
+        {children}
+      </body>
     </html>
   );
 }
